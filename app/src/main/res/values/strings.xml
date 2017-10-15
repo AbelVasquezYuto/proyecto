@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DATOS PERSONALES</string>
+    <string name="actualizar_msg">SE ACTUALIZO CORRECTAMENTE</string>
+    <string name="registrar_msg">SE AGREGO CORRECTAMENTE</string>
+    <string name="eliminar_msg">CLIENTE ELIMINADO</string>
+</resources>

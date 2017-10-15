@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.galaxy.myapplication.LLenarPersona">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/facebook"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="NOMBRES"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_apellidos"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"
+        android:inputType="text"
+        android:hint="APELLIDOS"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_correo"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="textEmailAddress"
+        android:hint="CORREO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_edad"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:inputType="numberDecimal"
+        android:hint="EDAD"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_dirreccion"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="text"
+        android:hint="DIRRECCION"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:textColor="@color/colorPrimary"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

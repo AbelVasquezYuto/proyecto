@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:text="Abel"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_apellido"
+        android:text="Vasquez"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_weight="1"
+        android:text="EDITAR"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:id="@+id/Btn_editar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
